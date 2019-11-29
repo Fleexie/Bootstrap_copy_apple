@@ -1,14 +1,31 @@
+*{
+}
+
+.bg-f2{
+  background-color: #f2f2f2;
+}
+
+body{
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+span, p, a, li {
+  font-size: 14px;
+}
 
 h2{
-  font-size: 40px;
+
 }
 h3{
-  font-size: 24px;
+ font-size: 19px;
 }
 
-span, p, a{
-  font-size: 17px;
-}
+
+
+
+
 
   .mac-sortiment{
     background-color: #fff;
@@ -33,7 +50,6 @@ h1{
 
 .baerbar-macs{
   background-color: #f2f2f2;
-//  padding: 50px 10% 40px 10%;
 }
 
 .bg-black{
@@ -138,13 +154,13 @@ h1{
 .julicon{
   background-image: url("../images/holiday_logo__frir1xc4izqm_large_2x.png");
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 126px;
-  height: 154px;
+  width: 50px;
+  height: 50px;
 }
 .julbillede{
-  background-image: url("../images/holiday_hero__fl3m6qumnii6_large_2x.png");
+  background-image: url("../images/holiday_hero__fl3m6qumnii6_small_2x.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -282,7 +298,40 @@ h1{
   justify-content: center;
   align-items: flex-end;
 }
+.macbook16pro{
+
+}
 
 .ul-txt{
   font-size: 13px;
+}
+
+.nav-item{
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: #d2d2d7 solid 1px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  h2{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  span, p, a, li{
+    font-size: 17px;
+  }
+  .julbillede{
+    background-image: url("../images/holiday_hero__fl3m6qumnii6_large_2x.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
 }
